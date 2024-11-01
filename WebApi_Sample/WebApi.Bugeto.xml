@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApi_Sample</name>
+    </assembly>
+    <members>
+        <member name="M:WebApi_Sample.Controllers.CategoriesController.Get">
+            <summary>
+            لیست دسته بندی ها را دریافت کن 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi_Sample.Controllers.CategoriesController.Get(System.Int32)">
+            <summary>
+            اطلاعات دسته بندی را دریافت کن
+            </summary>
+            <param name="Id">شناسه دسته بندی</param>
+            <returns></returns>
+        </member>
+        <member name="T:WebApi_Sample.Migrations.Init">
+            <inheritdoc />
+        </member>
+        <member name="M:WebApi_Sample.Migrations.Init.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:WebApi_Sample.Migrations.Init.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:WebApi_Sample.Migrations.Init.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
